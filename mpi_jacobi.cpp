@@ -337,7 +337,7 @@ void distributed_jacobi(const int n, double* local_A, double* local_b, double* l
     return;
 }
 
-
+  
 // wraps the distributed matrix vector multiplication
 void mpi_matrix_vector_mult(const int n, double* A,
                             double* x, double* y, MPI_Comm comm)
